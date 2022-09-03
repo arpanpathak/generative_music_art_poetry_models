@@ -26,9 +26,10 @@ npm install
 If you want to run the API Server for Machine Learning APIS then execute
 
 ```bash
-npm build && npm start
+npm run build && npm start
 ```
 
+**`npm run build` generates transpiled down `JS` files in `build` directory. `index.js` is the entry point for Node.JS engine**
 
 ### Install Interactive Kernels
 
