@@ -1,0 +1,19 @@
+{
+  "name": "generative-songs",
+  "version": "1.0.0",
+  "description": "A NodeJs Application to generate music using Generative AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "tsc": "tsc",
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "author": "Arpan Pathak",
+  "license": "MIT",
+  "dependencies": {
+    "@magenta/music": "^1.23.0",
+    "@tensorflow/tfjs": "^3.20.0",
+    "typescript": "^4.4.2"
+  }
+}
